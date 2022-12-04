@@ -26,7 +26,8 @@ nav a {
 header {
     background-color: #FEE440;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 150px 500px;
+    
 
 }
 
@@ -143,4 +144,4 @@ footer a{
 
 
 
-/* childpage code*/
+
