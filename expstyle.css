@@ -69,8 +69,8 @@ main{
 
 div.b{
     grid-row: 2/ 3;
+    grid-column: 2/ 3;
     text-align: right;
-    
     font-family: 'Source Serif Pro';
     text-align: center;
     
@@ -79,13 +79,16 @@ div.b{
 
 div.c{
     grid-row: 3/ 4;
+    grid-column: 1/ 4;
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
     font-family: 'Source Serif Pro';
+    margin-top: 50px;
     
 
 }
+
 
 
 h1{
@@ -95,12 +98,19 @@ h1{
 }
 
 #hardrive {
-    width: 250px;
+    width: 300px;
     grid-column: 2;
     grid-row: 1/ 2;
-    float: right;
-    margin-right: 150px;
-    
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+#computer {
+    width: 300px;
+    grid-column: 1/ 2;
+    grid-row: 2/ 3;
+    margin-left: 210px;
+    margin-top: 50px;
 }
 
 
