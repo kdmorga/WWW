@@ -46,16 +46,20 @@ header {
 
 main{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr  ;
+
     
 }
 
+.ex-grid {
+    grid-template-columns: 1fr 1fr;
+}
 
-
-div.a{
+.a{
+    grid-column: 1;
     grid-row: 1/ 2;
-    text-align: left;
-    margin-right: 800px;
+    text-align: center;
+    
     font-family: 'Source Serif Pro';
     text-align: center;
     margin-top: 100px;
@@ -66,7 +70,7 @@ div.a{
 div.b{
     grid-row: 2/ 3;
     text-align: right;
-    margin-left: 800px;
+    
     font-family: 'Source Serif Pro';
     text-align: center;
     
@@ -88,6 +92,15 @@ h1{
     font-family: 'Bebas Neue' , sans-serif;
     background-color: #FE5F55;
     color: white;
+}
+
+#hardrive {
+    width: 250px;
+    grid-column: 2;
+    grid-row: 1/ 2;
+    float: right;
+    margin-right: 150px;
+    
 }
 
 
