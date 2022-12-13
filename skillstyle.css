@@ -92,6 +92,7 @@ header {
 
 h1{
     background-color: #FE5F55;
+    color: #FE5F55;
     grid-column: 1/ 4;
     grid-row: 2/ 3;
 
